@@ -108,7 +108,7 @@ const PendingTasks = () => {
               onDelete={() => handleDelete(task._id || task.id)}
               onToggleComplete={() => handleToggleComplete(
                 task._id || task.id,
-                !t.completed
+                !task.completed
               )}
               onEdit={() => { setSelectedTask(task); setShowModal(true); }}
               onRefresh={refreshTasks}
