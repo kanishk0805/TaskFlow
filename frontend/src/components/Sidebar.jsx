@@ -115,7 +115,7 @@ const Sidebar = ({ user, tasks }) => {
 
       {/* Mobile Drawer */}
       {mobileOpen && (
-        <div className="fixed inset-0 z-40">
+        <div className="fixed inset-x-0 top-16 bottom-0 z-40">
           <div
             className={SIDEBAR_CLASSES.mobileDrawerBackdrop}
             onClick={() => setMobileOpen(false)}
